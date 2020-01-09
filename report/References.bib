@@ -1,0 +1,178 @@
+@article{expansion,
+ author = {Henriksen, Troels and Elsman, Martin and Serup, Niels G. W.},
+ title = {Data-Parallel Flattening by Expansion},
+ year = {2019},
+ url = {https://futhark-lang.org/publications/array19.pdf},
+}
+
+@inproceedings{opentunner,
+  author    = {Jason Ansel and
+               Shoaib Kamil and
+               Kalyan Veeramachaneni and
+               Jonathan Ragan{-}Kelley and
+               Jeffrey Bosboom and
+               Una{-}May O'Reilly and
+               Saman P. Amarasinghe},
+  title     = {OpenTuner: an extensible framework for program autotuning},
+  booktitle = {International Conference on Parallel Architectures and Compilation,
+               {PACT} '14, Edmonton, AB, Canada, August 24-27, 2014},
+  pages     = {303--316},
+  year      = {2014},
+  crossref  = {DBLP:conf/IEEEpact/2014},
+  url       = {https://doi.org/10.1145/2628071.2628092},
+  doi       = {10.1145/2628071.2628092},
+  timestamp = {Tue, 06 Nov 2018 00:00:00 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/IEEEpact/AnselKVRBOA14},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{oldtune,
+ author = {Thorøe, Frederik},
+ title = {Auto-tuning of threshold-parameters in Futhark},
+ month = jun,
+ year = {2018},
+ url = {https://futhark-lang.org/student-projects/mette-kowalski-bsc-thesis.pdf},
+} 
+
+@article{flat,
+ author = {Blelloch, Guy E. and Sabot, Gary W.},
+ title = {Compiling Collection-oriented Languages Onto Massively Parallel Computers},
+ journal = {J. Parallel Distrib. Comput.},
+ issue_date = {February 1990},
+ volume = {8},
+ number = {2},
+ month = feb,
+ year = {1990},
+ issn = {0743-7315},
+ pages = {119--134},
+ numpages = {16},
+ url = {http://dx.doi.org/10.1016/0743-7315(90)90087-6},
+ doi = {10.1016/0743-7315(90)90087-6},
+ acmid = {78250},
+ publisher = {Academic Press, Inc.},
+ address = {Orlando, FL, USA},
+} 
+
+@article{nesl,
+ author = {Blelloch, Guy E. and Hardwick, Jonathan C. and Chatterjee, Siddhartha and Sipelstein, Jay and Zagha, Marco},
+ title = {Implementation of a Portable Nested Data-parallel Language},
+ journal = {SIGPLAN Not.},
+ issue_date = {July 1993},
+ volume = {28},
+ number = {7},
+ month = jul,
+ year = {1993},
+ issn = {0362-1340},
+ pages = {102--111},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/173284.155343},
+ doi = {10.1145/173284.155343},
+ acmid = {155343},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@misc{cuda,
+  added-at = {2011-05-06T13:22:35.000+0200},
+  author = {{NVIDIA Corporation}},
+  biburl = {https://www.bibsonomy.org/bibtex/2e90a6474d85eac083c921cf5be29f6ef/toevanen},
+  interhash = {b29ebbf94430d6d1720b5562b86f6a32},
+  intrahash = {e90a6474d85eac083c921cf5be29f6ef},
+  keywords = {CUDA},
+  note = {Version 3.2},
+  timestamp = {2011-05-06T13:36:56.000+0200},
+  title = {{NVIDIA CUDA C} Programming Guide},
+  year = 2010
+}
+
+@article{prog-guide-cuda,
+author = {nVidia},
+title  = {NVIDIA CUDA Compute Unified Device Architecture, Programming Guide},
+year   = {2008},
+url    = {http://developer.download.nvidia.com/compute/cuda/2_0/docs/NVIDIA_CUDA_Programming_Guide_2.0.pdf}
+}
+
+@online{futhark-home,
+author = {Henriksen, Troels},
+title  = {Why Futhark?},
+date   = {2019-05},
+url    = {https://futhark-lang.org/}
+}
+
+@online{futhark-moderate-blog,
+author = {Henriksen, Troels},
+title  = {Streaming Combinators and Extracting Flat Parallelism},
+date   = {2019-06},
+url    = {https://futhark-lang.org/blog/2017-06-25-futhark-at-pldi.html}
+}
+
+@online{ppopp,
+author = {Henriksen, Troels and Thor{\o}e, Frederik and Elsman, Martin and Oancea, Cosmin},
+title  = {Experimental infrastructure for the paper "Incremental Flattening for Nested Data Parallelism" at PPOPP'19. },
+date   = {2019-05},
+url    = {https://github.com/diku-dk/futhark-ppopp19}       
+}
+
+@online{cpu-vs-gpu,
+author = {Michael Galloy},
+title  = {CPU vs GPU performance},
+date   = {2019-06},
+url    = {https://michaelgalloy.com/2013/06/11/cpu-vs-gpu-performance.html},      
+addendum  = {The graph used is an updated version from the article, and can be found here \url{https://github.com/mgalloy/cpu-vs-gpu}}
+}
+
+@inproceedings{inc-flat,
+ author = {Henriksen, Troels and Thor{\o}e, Frederik and Elsman, Martin and Oancea, Cosmin},
+ title = {Incremental Flattening for Nested Data Parallelism},
+ booktitle = {Proceedings of the 24th Symposium on Principles and Practice of Parallel Programming},
+ series = {PPoPP '19},
+ year = {2019},
+ isbn = {978-1-4503-6225-2},
+ location = {Washington, District of Columbia},
+ pages = {53--67},
+ numpages = {15},
+ url = {http://doi.acm.org/10.1145/3293883.3295707},
+ doi = {10.1145/3293883.3295707},
+ acmid = {3295707},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {GPGPU, compilers, functional language, parallel},
+}
+
+@article{futhark-nested-para,
+ author = {Henriksen, Troels and Serup, Niels G. W. and Elsman, Martin and Henglein, Fritz and Oancea, Cosmin E.},
+ title = {Futhark: Purely Functional GPU-programming with Nested Parallelism and In-place Array Updates},
+ journal = {SIGPLAN Not.},
+ issue_date = {June 2017},
+ volume = {52},
+ number = {6},
+ month = jun,
+ year = {2017},
+ issn = {0362-1340},
+ pages = {556--571},
+ numpages = {16},
+ url = {http://doi.acm.org/10.1145/3140587.3062354},
+ doi = {10.1145/3140587.3062354},
+ acmid = {3062354},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {GPGPU, compilers, functional language, parallel},
+} 
+
+@inproceedings{segred,
+ author = {Larsen, Rasmus Wriedt and Henriksen, Troels},
+ title = {Strategies for Regular Segmented Reductions on GPU},
+ booktitle = {Proceedings of the 6th ACM SIGPLAN International Workshop on Functional High-Performance Computing},
+ series = {FHPC 2017},
+ year = {2017},
+ isbn = {978-1-4503-5181-2},
+ location = {Oxford, UK},
+ pages = {42--52},
+ numpages = {11},
+ url = {http://doi.acm.org/10.1145/3122948.3122952},
+ doi = {10.1145/3122948.3122952},
+ acmid = {3122952},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {GPGPU, functional programming, parallelism},
+} 

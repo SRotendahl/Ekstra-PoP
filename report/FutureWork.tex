@@ -1,0 +1,29 @@
+\section{Reflections \& Future work}
+\label{synData}
+Our autotuner does what it's supposed to, performs an exhaustive search of all
+possible combinations of code versions in the given datasets and returns the
+one that performs the best. This means that in most cases the results it gives
+are better than the current autotuner. The problem it has is that to perform an
+exhaustive search and the number of combinations that needs to be checked increases
+very quickly as you add more datasets. In the \texttt{LocVolCalib} program the
+number of combinations that needs to be checked for one dataset is 13, while
+the number of combinations that needs to be checked when tune for all
+three datasets is 5463. 
+
+It's clear that our autotuner is fast if the number of datasets are low, so a
+possible solution is to not use very many. The problem with not using many
+datasets is that the parameters that are achieved from tuning might not
+generalize well to new datasets, as their sizes might be totally different. So
+instead of just leaving out datasets. The possible solution we propose is that
+it might be possible to create 'synthetic' datasets that, when tuned on,
+results in threshold values that achieves a good performance on all datasets of
+interest. 
+This idea can be somewhat seen in our results on \texttt{LocVolCalib} (See \ref{LocVolCalibAll})
+where training only on the \textit{medium} training  dataset resulted in good
+performances on \textit{medium} and \textit{small} test datasets. This training
+did not result in a good performance for the \textit{large} test dataset, but
+this says more about the \textit{medium} training dataset is not a good
+synthetic dataset, and less that the whole idea wouldn't work.
+
+An oversight we made in our implementation was to not stop an execution, if it was slower than a previous one, so if we had a path $e_0$ which had a running time of $10$ seconds, and we were actively checking path $e_1$, then we should stop the execution of $e_1$ if it exceeds $10$ seconds. This is a fairly easy optimization to make and could give a speedup, however the speedup would be dependent on the execution order. 
+%vi kunne skrive videre på dette med noget execution order og worst og best case.   

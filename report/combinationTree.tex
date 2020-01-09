@@ -1,0 +1,122 @@
+\forestset{
+  colour my roots/.style={
+    before typesetting nodes={
+      edge=#1,
+      for ancestors={
+        edge=#1,
+        #1,
+      },
+      #1,
+    }
+  },
+  my edge label/.style={
+    edge label={
+      node [midway, fill=white, font=\scriptsize] {#1}
+    }
+  }
+}
+
+\begin{figure}[h]
+\centering
+	\subfloat[][small]{
+	\centering
+	\begin{forest}
+[Th4
+	[V1,edge label={node[midway,left,font=\scriptsize]{T}}]
+	[Th5,edge label={node[midway,right,font=\scriptsize]{F}}
+		[V2,edge label={node[midway,left,font=\scriptsize]{T}}]
+		[Th6,edge label={node[midway,right,font=\scriptsize]{F}}
+			[V3,colour my roots=red, edge label={node[midway,left,font=\scriptsize]{T}}]
+			[Th7,edge label={node[midway,right,font=\scriptsize]{F}}
+				[Th16,edge label={node[midway,left,font=\scriptsize]{F}}
+					[V5,edge label={node[midway,left,font=\scriptsize]{T}}]
+					[Th17,edge label={node[midway,right,font=\scriptsize]{F}}
+						[V6, edge label={node[midway,left,font=\scriptsize]{T}}]
+						[V7,edge label={node[midway,right,font=\scriptsize]{F}}]
+					]
+				]
+				[Th8,edge label={node[midway,left,font=\scriptsize]{F}}
+					[V8,edge label={node[midway,left,font=\scriptsize]{T}}]
+					[Th9,edge label={node[midway,right,font=\scriptsize]{F}}
+						[V9, edge label={node[midway,left,font=\scriptsize]{T}}]
+						[V10,edge label={node[midway,right,font=\scriptsize]{F}}]
+					]
+				]
+			[V4, edge label={node[midway, right,font=\scriptsize]{T}}]
+			]
+		]
+	]	
+]
+\end{forest}
+	\label{combinationA}}
+	\subfloat[][medium]{
+	\centering
+		\begin{forest}
+[Th4
+	[V1,edge label={node[midway,left,font=\scriptsize]{T}}]
+	[Th5,edge label={node[midway,right,font=\scriptsize]{F}}
+		[V2,edge label={node[midway,left,font=\scriptsize]{T}}]
+		[Th6,edge label={node[midway,right,font=\scriptsize]{F}}
+			[V3,edge label={node[midway,left,font=\scriptsize]{T}}]
+			[Th7,edge label={node[midway,right,font=\scriptsize]{F}}
+				[Th16,edge label={node[midway,left,font=\scriptsize]{F}}
+					[V5,edge label={node[midway,left,font=\scriptsize]{T}}]
+					[Th17,edge label={node[midway,right,font=\scriptsize]{F}}
+						[V6, edge label={node[midway,left,font=\scriptsize]{T}}]
+						[V7,edge label={node[midway,right,font=\scriptsize]{F}}]
+					]
+				]
+				[Th8,edge label={node[midway,left,font=\scriptsize]{F}}
+					[V8,edge label={node[midway,left,font=\scriptsize]{T}}]
+					[Th9,edge label={node[midway,right,font=\scriptsize]{F}}
+						[V9, edge label={node[midway,left,font=\scriptsize]{T}}]
+						[V10,edge label={node[midway,right,font=\scriptsize]{F}}]
+					]
+				]
+			[V4,colour my roots=green,edge label={node[midway, right,font=\scriptsize]{T}}]
+			]
+		]
+	]	
+]
+\end{forest}
+	\label{combinationB}}
+	\subfloat[][large]{
+	\centering
+	\begin{forest}
+[Th4
+	[V1,edge label={node[midway,left,font=\scriptsize]{T}}]
+	[Th5,edge label={node[midway,right,font=\scriptsize]{F}}
+		[V2,edge label={node[midway,left,font=\scriptsize]{T}}]
+		[Th6,edge label={node[midway,right,font=\scriptsize]{F}}
+			[V3,edge label={node[midway,left,font=\scriptsize]{T}}]
+			[Th7,edge label={node[midway,right,font=\scriptsize]{F}}
+				[Th16,edge label={node[midway,left,font=\scriptsize]{F}}
+					[V5,edge label={node[midway,left,font=\scriptsize]{T}}]
+					[Th17, edge label={node[midway,right,font=\scriptsize]{F}}
+						[V6, colour my roots=blue, edge label={node[midway,left,font=\scriptsize]{T}}]
+						[V7, edge label={node[midway,right,font=\scriptsize]{F}}]
+					]
+				]
+				[Th8,edge label={node[midway,left,font=\scriptsize]{F}}
+					[V8,edge label={node[midway,left,font=\scriptsize]{T}}]
+					[Th9,edge label={node[midway,right,font=\scriptsize]{F}}
+						[V9 ,colour my roots=blue, edge label={node[midway,left,font=\scriptsize]{T}}]
+						[V10, edge label={node[midway,right,font=\scriptsize]{F}}]
+					]
+				]
+			[V4,edge label={node[midway, right,font=\scriptsize]{T}}]
+			]
+		]
+	]	
+]
+\end{forest}
+	\label{combinationC}}
+	\caption{We see an example of how three dataset might choose different paths
+    through the tree depending on their size, with the same set of threshold
+    parameters. The general idea is that the
+    longer down we go in the tree the more parallelism is utilized. The three trees here show a unique path through each, and this combination of these three paths, is also unique. We need to check all of such unique combinations. This tree is
+    based on the \textit{LocVolCalb} program. The paths show here are not necessarily the
+    combination of paths any dataset would take based on any combination of
+    threshold values.}
+	\label{combination}
+\end{figure}

@@ -1,0 +1,542 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{opentunner}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=e78fa9bb024897b05487b4d0e3aab461}{%
+           family={Ansel},
+           familyi={A\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=804f70e575015a1bc78123759a08dde4}{%
+           family={Kamil},
+           familyi={K\bibinitperiod},
+           given={Shoaib},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4f9e11fe0b69785748cd8f7d4a672635}{%
+           family={Veeramachaneni},
+           familyi={V\bibinitperiod},
+           given={Kalyan},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d1cfd2886ba18f14cebbea565ab7a156}{%
+           family={Ragan{-}Kelley},
+           familyi={R\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2a3f756e5ed1421174fb95e91bdec14b}{%
+           family={Bosboom},
+           familyi={B\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
+        {{hash=733a2bfdb60236ac574efac247cac4d5}{%
+           family={O'Reilly},
+           familyi={O\bibinitperiod},
+           given={Una{-}May},
+           giveni={U\bibinitperiod}}}%
+        {{hash=5321287c9790dfc7c650498e6fd22793}{%
+           family={Amarasinghe},
+           familyi={A\bibinitperiod},
+           given={Saman\bibnamedelima P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3808305ad2695511c53901a6b9071d0}
+      \strng{fullhash}{15b49a0ae1c66cd850826d63e17de2e0}
+      \strng{bibnamehash}{a3808305ad2695511c53901a6b9071d0}
+      \strng{authorbibnamehash}{a3808305ad2695511c53901a6b9071d0}
+      \strng{authornamehash}{a3808305ad2695511c53901a6b9071d0}
+      \strng{authorfullhash}{15b49a0ae1c66cd850826d63e17de2e0}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Parallel Architectures and Compilation, {PACT} '14, Edmonton, AB, Canada, August 24-27, 2014}
+      \field{title}{OpenTuner: an extensible framework for program autotuning}
+      \field{year}{2014}
+      \field{pages}{303\bibrangedash 316}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1145/2628071.2628092
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2628071.2628092
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2628071.2628092
+      \endverb
+    \endentry
+    \entry{flat}{article}{}
+      \name{author}{2}{}{%
+        {{hash=32a0460996f7163915e892129cadc85b}{%
+           family={Blelloch},
+           familyi={B\bibinitperiod},
+           given={Guy\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=948b184aeca9f2adfa90c6c83f6e892f}{%
+           family={Sabot},
+           familyi={S\bibinitperiod},
+           given={Gary\bibnamedelima W.},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Orlando, FL, USA}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press, Inc.}%
+      }
+      \strng{namehash}{e1f565d9110b594e3e8ca37e03d6ff69}
+      \strng{fullhash}{e1f565d9110b594e3e8ca37e03d6ff69}
+      \strng{bibnamehash}{e1f565d9110b594e3e8ca37e03d6ff69}
+      \strng{authorbibnamehash}{e1f565d9110b594e3e8ca37e03d6ff69}
+      \strng{authornamehash}{e1f565d9110b594e3e8ca37e03d6ff69}
+      \strng{authorfullhash}{e1f565d9110b594e3e8ca37e03d6ff69}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0743-7315}
+      \field{journaltitle}{J. Parallel Distrib. Comput.}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Compiling Collection-oriented Languages Onto Massively Parallel Computers}
+      \field{volume}{8}
+      \field{year}{1990}
+      \field{pages}{119\bibrangedash 134}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/0743-7315(90)90087-6
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/0743-7315(90)90087-6
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/0743-7315(90)90087-6
+      \endverb
+    \endentry
+    \entry{nesl}{article}{}
+      \name{author}{5}{}{%
+        {{hash=32a0460996f7163915e892129cadc85b}{%
+           family={Blelloch},
+           familyi={B\bibinitperiod},
+           given={Guy\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=14940ca6c7b16ff03eb0e42377d3ce7b}{%
+           family={Hardwick},
+           familyi={H\bibinitperiod},
+           given={Jonathan\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=b69669616ad20810f947742be369933e}{%
+           family={Chatterjee},
+           familyi={C\bibinitperiod},
+           given={Siddhartha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6c68ded75ce23e96013e30719e30cda1}{%
+           family={Sipelstein},
+           familyi={S\bibinitperiod},
+           given={Jay},
+           giveni={J\bibinitperiod}}}%
+        {{hash=14f611179990bfffac65d99985d4e8f9}{%
+           family={Zagha},
+           familyi={Z\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{5fb3df09b97408425a0bc1b302d052c3}
+      \strng{fullhash}{aa953c908ed199cc8c9de740f1420e3e}
+      \strng{bibnamehash}{5fb3df09b97408425a0bc1b302d052c3}
+      \strng{authorbibnamehash}{5fb3df09b97408425a0bc1b302d052c3}
+      \strng{authornamehash}{5fb3df09b97408425a0bc1b302d052c3}
+      \strng{authorfullhash}{aa953c908ed199cc8c9de740f1420e3e}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0362-1340}
+      \field{journaltitle}{SIGPLAN Not.}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{Implementation of a Portable Nested Data-parallel Language}
+      \field{volume}{28}
+      \field{year}{1993}
+      \field{pages}{102\bibrangedash 111}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/173284.155343
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.acm.org/10.1145/173284.155343
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/173284.155343
+      \endverb
+    \endentry
+    \entry{cpu-vs-gpu}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9167c54f5ff34c87063e77eb33b29888}{%
+           family={Galloy},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9167c54f5ff34c87063e77eb33b29888}
+      \strng{fullhash}{9167c54f5ff34c87063e77eb33b29888}
+      \strng{bibnamehash}{9167c54f5ff34c87063e77eb33b29888}
+      \strng{authorbibnamehash}{9167c54f5ff34c87063e77eb33b29888}
+      \strng{authornamehash}{9167c54f5ff34c87063e77eb33b29888}
+      \strng{authorfullhash}{9167c54f5ff34c87063e77eb33b29888}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{The graph used is an updated version from the article, and can be found here \url{https://github.com/mgalloy/cpu-vs-gpu}}
+      \field{month}{6}
+      \field{title}{CPU vs GPU performance}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://michaelgalloy.com/2013/06/11/cpu-vs-gpu-performance.html
+      \endverb
+      \verb{url}
+      \verb https://michaelgalloy.com/2013/06/11/cpu-vs-gpu-performance.html
+      \endverb
+    \endentry
+    \entry{futhark-moderate-blog}{online}{}
+      \name{author}{1}{}{%
+        {{hash=877d0c9dfa523172d9e414d7847d3fea}{%
+           family={Henriksen},
+           familyi={H\bibinitperiod},
+           given={Troels},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{877d0c9dfa523172d9e414d7847d3fea}
+      \strng{fullhash}{877d0c9dfa523172d9e414d7847d3fea}
+      \strng{bibnamehash}{877d0c9dfa523172d9e414d7847d3fea}
+      \strng{authorbibnamehash}{877d0c9dfa523172d9e414d7847d3fea}
+      \strng{authornamehash}{877d0c9dfa523172d9e414d7847d3fea}
+      \strng{authorfullhash}{877d0c9dfa523172d9e414d7847d3fea}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Streaming Combinators and Extracting Flat Parallelism}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://futhark-lang.org/blog/2017-06-25-futhark-at-pldi.html
+      \endverb
+      \verb{url}
+      \verb https://futhark-lang.org/blog/2017-06-25-futhark-at-pldi.html
+      \endverb
+    \endentry
+    \entry{futhark-home}{online}{}
+      \name{author}{1}{}{%
+        {{hash=877d0c9dfa523172d9e414d7847d3fea}{%
+           family={Henriksen},
+           familyi={H\bibinitperiod},
+           given={Troels},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{877d0c9dfa523172d9e414d7847d3fea}
+      \strng{fullhash}{877d0c9dfa523172d9e414d7847d3fea}
+      \strng{bibnamehash}{877d0c9dfa523172d9e414d7847d3fea}
+      \strng{authorbibnamehash}{877d0c9dfa523172d9e414d7847d3fea}
+      \strng{authornamehash}{877d0c9dfa523172d9e414d7847d3fea}
+      \strng{authorfullhash}{877d0c9dfa523172d9e414d7847d3fea}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Why Futhark?}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://futhark-lang.org/
+      \endverb
+      \verb{url}
+      \verb https://futhark-lang.org/
+      \endverb
+    \endentry
+    \entry{expansion}{article}{}
+      \name{author}{3}{}{%
+        {{hash=877d0c9dfa523172d9e414d7847d3fea}{%
+           family={Henriksen},
+           familyi={H\bibinitperiod},
+           given={Troels},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6f9908e5ad2889b9db1d9fa39c150abe}{%
+           family={Elsman},
+           familyi={E\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c69cf55f1423b197d53ac17a4ab30dcb}{%
+           family={Serup},
+           familyi={S\bibinitperiod},
+           given={Niels\bibnamedelimb G.\bibnamedelimi W.},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{44ed3d96bb024bbbd86fe193a7bdeb41}
+      \strng{fullhash}{44ed3d96bb024bbbd86fe193a7bdeb41}
+      \strng{bibnamehash}{44ed3d96bb024bbbd86fe193a7bdeb41}
+      \strng{authorbibnamehash}{44ed3d96bb024bbbd86fe193a7bdeb41}
+      \strng{authornamehash}{44ed3d96bb024bbbd86fe193a7bdeb41}
+      \strng{authorfullhash}{44ed3d96bb024bbbd86fe193a7bdeb41}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Data-Parallel Flattening by Expansion}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://futhark-lang.org/publications/array19.pdf
+      \endverb
+      \verb{url}
+      \verb https://futhark-lang.org/publications/array19.pdf
+      \endverb
+    \endentry
+    \entry{ppopp}{online}{}
+      \name{author}{4}{}{%
+        {{hash=877d0c9dfa523172d9e414d7847d3fea}{%
+           family={Henriksen},
+           familyi={H\bibinitperiod},
+           given={Troels},
+           giveni={T\bibinitperiod}}}%
+        {{hash=506edfcc12758d829a83b641cbfc2f62}{%
+           family={Thorøe},
+           familyi={T\bibinitperiod},
+           given={Frederik},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6f9908e5ad2889b9db1d9fa39c150abe}{%
+           family={Elsman},
+           familyi={E\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ac84f1b0e653dfe9e8c1073bf4de555e}{%
+           family={Oancea},
+           familyi={O\bibinitperiod},
+           given={Cosmin},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ff96a56661da51f9bfa3bdd3dc7b55d}
+      \strng{fullhash}{2f65c53c78c922e1a655b9f97b20bd6e}
+      \strng{bibnamehash}{5ff96a56661da51f9bfa3bdd3dc7b55d}
+      \strng{authorbibnamehash}{5ff96a56661da51f9bfa3bdd3dc7b55d}
+      \strng{authornamehash}{5ff96a56661da51f9bfa3bdd3dc7b55d}
+      \strng{authorfullhash}{2f65c53c78c922e1a655b9f97b20bd6e}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Experimental infrastructure for the paper "Incremental Flattening for Nested Data Parallelism" at PPOPP'19.}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/diku-dk/futhark-ppopp19
+      \endverb
+      \verb{url}
+      \verb https://github.com/diku-dk/futhark-ppopp19
+      \endverb
+    \endentry
+    \entry{futhark-nested-para}{article}{}
+      \name{author}{5}{}{%
+        {{hash=877d0c9dfa523172d9e414d7847d3fea}{%
+           family={Henriksen},
+           familyi={H\bibinitperiod},
+           given={Troels},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c69cf55f1423b197d53ac17a4ab30dcb}{%
+           family={Serup},
+           familyi={S\bibinitperiod},
+           given={Niels\bibnamedelimb G.\bibnamedelimi W.},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=6f9908e5ad2889b9db1d9fa39c150abe}{%
+           family={Elsman},
+           familyi={E\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3ad5d3ed3df574265dadd8a7e9fce664}{%
+           family={Henglein},
+           familyi={H\bibinitperiod},
+           given={Fritz},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9bb9177250e287f34afe894db2cdb6bb}{%
+           family={Oancea},
+           familyi={O\bibinitperiod},
+           given={Cosmin\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{5ff96a56661da51f9bfa3bdd3dc7b55d}
+      \strng{fullhash}{36bae6d4a95d6a7b86407dbd98d41abf}
+      \strng{bibnamehash}{5ff96a56661da51f9bfa3bdd3dc7b55d}
+      \strng{authorbibnamehash}{5ff96a56661da51f9bfa3bdd3dc7b55d}
+      \strng{authornamehash}{5ff96a56661da51f9bfa3bdd3dc7b55d}
+      \strng{authorfullhash}{36bae6d4a95d6a7b86407dbd98d41abf}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0362-1340}
+      \field{journaltitle}{SIGPLAN Not.}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Futhark: Purely Functional GPU-programming with Nested Parallelism and In-place Array Updates}
+      \field{volume}{52}
+      \field{year}{2017}
+      \field{pages}{556\bibrangedash 571}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1145/3140587.3062354
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.acm.org/10.1145/3140587.3062354
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/3140587.3062354
+      \endverb
+      \keyw{GPGPU,compilers,functional language,parallel}
+    \endentry
+    \entry{inc-flat}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=877d0c9dfa523172d9e414d7847d3fea}{%
+           family={Henriksen},
+           familyi={H\bibinitperiod},
+           given={Troels},
+           giveni={T\bibinitperiod}}}%
+        {{hash=506edfcc12758d829a83b641cbfc2f62}{%
+           family={Thorøe},
+           familyi={T\bibinitperiod},
+           given={Frederik},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6f9908e5ad2889b9db1d9fa39c150abe}{%
+           family={Elsman},
+           familyi={E\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ac84f1b0e653dfe9e8c1073bf4de555e}{%
+           family={Oancea},
+           familyi={O\bibinitperiod},
+           given={Cosmin},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Washington, District of Columbia}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{5ff96a56661da51f9bfa3bdd3dc7b55d}
+      \strng{fullhash}{2f65c53c78c922e1a655b9f97b20bd6e}
+      \strng{bibnamehash}{5ff96a56661da51f9bfa3bdd3dc7b55d}
+      \strng{authorbibnamehash}{5ff96a56661da51f9bfa3bdd3dc7b55d}
+      \strng{authornamehash}{5ff96a56661da51f9bfa3bdd3dc7b55d}
+      \strng{authorfullhash}{2f65c53c78c922e1a655b9f97b20bd6e}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 24th Symposium on Principles and Practice of Parallel Programming}
+      \field{isbn}{978-1-4503-6225-2}
+      \field{series}{PPoPP '19}
+      \field{title}{Incremental Flattening for Nested Data Parallelism}
+      \field{year}{2019}
+      \field{pages}{53\bibrangedash 67}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1145/3293883.3295707
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.acm.org/10.1145/3293883.3295707
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/3293883.3295707
+      \endverb
+      \keyw{GPGPU,compilers,functional language,parallel}
+    \endentry
+    \entry{prog-guide-cuda}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bb80167a30b8941ffa55b3c3b86bd2ce}{%
+           family={nVidia},
+           familyi={n\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb80167a30b8941ffa55b3c3b86bd2ce}
+      \strng{fullhash}{bb80167a30b8941ffa55b3c3b86bd2ce}
+      \strng{bibnamehash}{bb80167a30b8941ffa55b3c3b86bd2ce}
+      \strng{authorbibnamehash}{bb80167a30b8941ffa55b3c3b86bd2ce}
+      \strng{authornamehash}{bb80167a30b8941ffa55b3c3b86bd2ce}
+      \strng{authorfullhash}{bb80167a30b8941ffa55b3c3b86bd2ce}
+      \field{sortinit}{n}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{NVIDIA CUDA Compute Unified Device Architecture, Programming Guide}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb http://developer.download.nvidia.com/compute/cuda/2_0/docs/NVIDIA_CUDA_Programming_Guide_2.0.pdf
+      \endverb
+      \verb{url}
+      \verb http://developer.download.nvidia.com/compute/cuda/2_0/docs/NVIDIA_CUDA_Programming_Guide_2.0.pdf
+      \endverb
+    \endentry
+    \entry{oldtune}{article}{}
+      \name{author}{1}{}{%
+        {{hash=506edfcc12758d829a83b641cbfc2f62}{%
+           family={Thorøe},
+           familyi={T\bibinitperiod},
+           given={Frederik},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{506edfcc12758d829a83b641cbfc2f62}
+      \strng{fullhash}{506edfcc12758d829a83b641cbfc2f62}
+      \strng{bibnamehash}{506edfcc12758d829a83b641cbfc2f62}
+      \strng{authorbibnamehash}{506edfcc12758d829a83b641cbfc2f62}
+      \strng{authornamehash}{506edfcc12758d829a83b641cbfc2f62}
+      \strng{authorfullhash}{506edfcc12758d829a83b641cbfc2f62}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Auto-tuning of threshold-parameters in Futhark}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://futhark-lang.org/student-projects/mette-kowalski-bsc-thesis.pdf
+      \endverb
+      \verb{url}
+      \verb https://futhark-lang.org/student-projects/mette-kowalski-bsc-thesis.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

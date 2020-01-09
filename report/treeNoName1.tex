@@ -1,0 +1,29 @@
+\forestset{sn edges/.style={for tree={parent anchor=east, child anchor=west}}}
+
+\begin{figure}[h]
+\centering
+\begin{forest}
+[, phantom
+  [$\texttt{('Th4', true, [p41, p42])} \to \texttt{[[('TH4',p41)],[('TH4',p42)]]}$]
+]
+\end{forest}
+\begin{forest}
+[, phantom
+  [$\texttt{('Th3', false, [p31, p32])} \to \texttt{[[('TH3',p31)],[('TH3',p32)]]}$]
+]
+\end{forest}
+\begin{forest}
+[, phantom
+  [$\texttt{('Th2', false, [p21, p22, p23])} \to
+  \texttt{[[('TH2',p21)],[('TH2',p22)],[('TH2',p23)]]}$]
+]
+\end{forest}
+\begin{forest}
+[, phantom
+  [$\texttt{('Th5', false, [p51, p52])} \to \texttt{[[('TH5',p51)],[('TH5',p52)]]}$]
+]
+\end{forest}
+\caption{The subtrees that contain only the leafs of the original tree from
+Figure \ref{treeNoName0}.}
+\label{treeNoName1}
+\end{figure}

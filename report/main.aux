@@ -1,0 +1,176 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\zref@newlabel[2]{}
+\abx@aux@refcontext{nty/global//global/global}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\providecommand*\new@tpo@label[2]{}
+\providecommand\tcolorbox@label[2]{}
+\@writefile{toc}{\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax }
+\@writefile{lof}{\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax }
+\@writefile{lot}{\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax }
+\babel@aux{english}{}
+\abx@aux@cite{cpu-vs-gpu}
+\abx@aux@segm{0}{0}{cpu-vs-gpu}
+\abx@aux@segm{0}{0}{cpu-vs-gpu}
+\abx@aux@cite{futhark-home}
+\abx@aux@segm{0}{0}{futhark-home}
+\abx@aux@cite{ppopp}
+\abx@aux@segm{0}{0}{ppopp}
+\abx@aux@segm{0}{0}{ppopp}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces A graph showing the computational potential of CPUs and GPUs from 2000---2016 \cite {cpu-vs-gpu}\relax }}{2}{figure.caption.1}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{potential}{{1}{2}{A graph showing the computational potential of CPUs and GPUs from 2000---2016 \cite {cpu-vs-gpu}\relax }{figure.caption.1}{}}
+\@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}{\ignorespaces Matrix-matrix multiplication in Futhark \cite {ppopp}\relax }}{3}{figure.caption.2}}
+\newlabel{IntromatmultFuthark}{{1}{3}{Matrix-matrix multiplication in Futhark \cite {ppopp}\relax }{figure.caption.2}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {2}Background}{3}{section.2}}
+\newlabel{BabyGotBack}{{2}{3}{Background}{section.2}{}}
+\abx@aux@cite{nesl}
+\abx@aux@segm{0}{0}{nesl}
+\abx@aux@cite{flat}
+\abx@aux@segm{0}{0}{flat}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Parallelism}{4}{subsection.2.1}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Flat parallelism}{4}{subsection.2.2}}
+\abx@aux@cite{futhark-moderate-blog}
+\abx@aux@segm{0}{0}{futhark-moderate-blog}
+\abx@aux@segm{0}{0}{futhark-moderate-blog}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Moderate flattening}{5}{subsection.2.3}}
+\newlabel{perMapNest}{{2a}{5}{Subfigure 2a}{lstnumber.-2.1}{}}
+\newlabel{sub@perMapNest}{{(a)}{a}{Subfigure 2a\relax }{lstnumber.-2.1}{}}
+\newlabel{impMapNest}{{2b}{5}{Subfigure 2b}{lstnumber.-3.1}{}}
+\newlabel{sub@impMapNest}{{(b)}{b}{Subfigure 2b\relax }{lstnumber.-3.1}{}}
+\newlabel{perScanNest}{{2c}{5}{Subfigure 2c}{lstnumber.-4.1}{}}
+\newlabel{sub@perScanNest}{{(c)}{c}{Subfigure 2c\relax }{lstnumber.-4.1}{}}
+\newlabel{impScanNest}{{2d}{5}{Subfigure 2d}{lstnumber.-5.1}{}}
+\newlabel{sub@impScanNest}{{(d)}{d}{Subfigure 2d\relax }{lstnumber.-5.1}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Two examples of perfect and imperfect code. In \ref  {perMapNest} and \ref  {impMapNest} we see two \texttt  {map} nests, where \ref  {impMapNest} is not perfectly nested due to the concatenation being performed in between. In the two \texttt  {map-scan} nests of \ref  {perScanNest} and \ref  {impScanNest} we see that one is perfectly nested, while the other has a conditional expression in between making it imperfectly nested.\relax }}{5}{figure.caption.3}}
+\newlabel{nests}{{2}{5}{Two examples of perfect and imperfect code. In \ref {perMapNest} and \ref {impMapNest} we see two \texttt {map} nests, where \ref {impMapNest} is not perfectly nested due to the concatenation being performed in between. In the two \texttt {map-scan} nests of \ref {perScanNest} and \ref {impScanNest} we see that one is perfectly nested, while the other has a conditional expression in between making it imperfectly nested.\relax }{figure.caption.3}{}}
+\newlabel{beforeDist}{{3a}{5}{Subfigure 3a}{lstnumber.-6.3}{}}
+\newlabel{sub@beforeDist}{{(a)}{a}{Subfigure 3a\relax }{lstnumber.-6.3}{}}
+\newlabel{afterDist}{{3b}{5}{Subfigure 3b}{lstnumber.-7.2}{}}
+\newlabel{sub@afterDist}{{(b)}{b}{Subfigure 3b\relax }{lstnumber.-7.2}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Two version of a fragment of code, showing the distribution of SOACs (\textit  {second-order array combinators}) \cite {futhark-moderate-blog}.\relax }}{5}{figure.caption.4}}
+\newlabel{loopDist}{{3}{5}{Two version of a fragment of code, showing the distribution of SOACs (\textit {second-order array combinators}) \cite {futhark-moderate-blog}.\relax }{figure.caption.4}{}}
+\abx@aux@cite{futhark-nested-para}
+\abx@aux@segm{0}{0}{futhark-nested-para}
+\abx@aux@segm{0}{0}{flat}
+\abx@aux@segm{0}{0}{flat}
+\abx@aux@segm{0}{0}{futhark-nested-para}
+\abx@aux@cite{expansion}
+\abx@aux@segm{0}{0}{expansion}
+\abx@aux@cite{inc-flat}
+\abx@aux@segm{0}{0}{inc-flat}
+\abx@aux@segm{0}{0}{ppopp}
+\abx@aux@segm{0}{0}{ppopp}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Incremental flattening}{6}{subsection.2.4}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Matrix-matrix multiplication in Futhark \cite {ppopp}\relax }}{6}{figure.caption.5}}
+\newlabel{matmultFuthark}{{4}{6}{Matrix-matrix multiplication in Futhark \cite {ppopp}\relax }{figure.caption.5}{}}
+\abx@aux@segm{0}{0}{inc-flat}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces A tree showing the structure of the three different code versions generate by flattening a \texttt  {map} nest\relax }}{7}{figure.5}}
+\newlabel{maptree}{{5}{7}{A tree showing the structure of the three different code versions generate by flattening a \texttt {map} nest\relax }{figure.5}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The structure of choices found in the futhark program for matrix-matrix multiplication (see listing \ref  {matmultFuthark}). (V) represents the resulting code version of a choice\relax }}{8}{figure.6}}
+\newlabel{MatMultTree}{{6}{8}{The structure of choices found in the futhark program for matrix-matrix multiplication (see listing \ref {matmultFuthark}). (V) represents the resulting code version of a choice\relax }{figure.6}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Structure of the code versions}{8}{subsection.2.5}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The tree generated by matrix-matrix multiplication. ($t_i$) is a threshold, ($n$, $p$, and $m$) are the sizes of the matricies show in the code (see \ref  {matmultFuthark}), and (T) and (F) are indicative of the path we take, based on the threshold comparison.\relax }}{9}{figure.caption.6}}
+\newlabel{MatMultTreeFilled}{{7}{9}{The tree generated by matrix-matrix multiplication. ($t_i$) is a threshold, ($n$, $p$, and $m$) are the sizes of the matricies show in the code (see \ref {matmultFuthark}), and (T) and (F) are indicative of the path we take, based on the threshold comparison.\relax }{figure.caption.6}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces The dependencies between thresholds, of the test program \texttt  {LocVolCalib.fut}. (Th) is a threshold comparison, (V) is a code version, and (T) and (F) are indicative of the path we take, based on the threshold comparison\relax }}{9}{figure.caption.7}}
+\newlabel{LocVolCalibTree}{{8}{9}{The dependencies between thresholds, of the test program \texttt {LocVolCalib.fut}. (Th) is a threshold comparison, (V) is a code version, and (T) and (F) are indicative of the path we take, based on the threshold comparison\relax }{figure.caption.7}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {3}Design \& Implementation}{10}{section.3}}
+\newlabel{imp}{{3}{10}{Design \& Implementation}{section.3}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Building the Tree}{10}{subsection.3.1}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces The syntax of thresholds, printed by Futhark.\relax }}{10}{figure.caption.8}}
+\newlabel{thresholdSyntax}{{9}{10}{The syntax of thresholds, printed by Futhark.\relax }{figure.caption.8}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces The recusive steps of building the tree structure for the thresholds, with (Th) being a threshold parameter. The list of thresholds for the tree would be \texttt  {[main.suff\_intra\_par\_5 (threshold (!main.suff\_outer\_par\_4)), main.suff\_outer\_par\_4 (threshold ()), main.suff\_outer\_par\_6 (threshold (!main.suff\_outer\_par\_4 !main.suff\_intra\_par\_5))]}\relax }}{11}{figure.caption.9}}
+\newlabel{buildThresTree}{{10}{11}{The recusive steps of building the tree structure for the thresholds, with (Th) being a threshold parameter. The list of thresholds for the tree would be \texttt {[main.suff\_intra\_par\_5 (threshold (!main.suff\_outer\_par\_4)), main.suff\_outer\_par\_4 (threshold ()), main.suff\_outer\_par\_6 (threshold (!main.suff\_outer\_par\_4 !main.suff\_intra\_par\_5))]}\relax }{figure.caption.9}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Limiting Search Space}{11}{subsection.3.2}}
+\newlabel{redundantA}{{11a}{12}{Subfigure 11a}{subfigure.11.1}{}}
+\newlabel{sub@redundantA}{{(a)}{a}{Subfigure 11a\relax }{subfigure.11.1}{}}
+\newlabel{redundantB}{{11b}{12}{Subfigure 11b}{subfigure.11.2}{}}
+\newlabel{sub@redundantB}{{(b)}{b}{Subfigure 11b\relax }{subfigure.11.2}{}}
+\newlabel{redundantC}{{11c}{12}{Subfigure 11c}{subfigure.11.3}{}}
+\newlabel{sub@redundantC}{{(c)}{c}{Subfigure 11c\relax }{subfigure.11.3}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces In Figure \ref  {redundantA} we see the tree, with \textit  {X} denoting that the comparison has not be performed, in Figure \ref  {redundantB} we see the case that the first comparison results in true. Since the first comparison resulted in true the next two are never performed, and they can be forgotten. The same idea can be seen in Figure \ref  {redundantC} where the first results is false, the second in true, and so the last is never performed.\relax }}{12}{figure.caption.10}}
+\newlabel{redundant}{{11}{12}{In Figure \ref {redundantA} we see the tree, with \textit {X} denoting that the comparison has not be performed, in Figure \ref {redundantB} we see the case that the first comparison results in true. Since the first comparison resulted in true the next two are never performed, and they can be forgotten. The same idea can be seen in Figure \ref {redundantC} where the first results is false, the second in true, and so the last is never performed.\relax }{figure.caption.10}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Identifying all unique combinations}{12}{subsection.3.3}}
+\newlabel{combinationA}{{12a}{13}{Subfigure 12a}{subfigure.12.1}{}}
+\newlabel{sub@combinationA}{{(a)}{a}{Subfigure 12a\relax }{subfigure.12.1}{}}
+\newlabel{combinationB}{{12b}{13}{Subfigure 12b}{subfigure.12.2}{}}
+\newlabel{sub@combinationB}{{(b)}{b}{Subfigure 12b\relax }{subfigure.12.2}{}}
+\newlabel{combinationC}{{12c}{13}{Subfigure 12c}{subfigure.12.3}{}}
+\newlabel{sub@combinationC}{{(c)}{c}{Subfigure 12c\relax }{subfigure.12.3}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces We see an example of how three dataset might choose different paths through the tree depending on their size, with the same set of threshold parameters. The general idea is that the longer down we go in the tree the more parallelism is utilized. The three trees here show a unique path through each, and this combination of these three paths, is also unique. We need to check all of such unique combinations. This tree is based on the \textit  {LocVolCalb} program. The paths show here are not necessarily the combination of paths any dataset would take based on any combination of threshold values.\relax }}{13}{figure.caption.11}}
+\newlabel{combination}{{12}{13}{We see an example of how three dataset might choose different paths through the tree depending on their size, with the same set of threshold parameters. The general idea is that the longer down we go in the tree the more parallelism is utilized. The three trees here show a unique path through each, and this combination of these three paths, is also unique. We need to check all of such unique combinations. This tree is based on the \textit {LocVolCalb} program. The paths show here are not necessarily the combination of paths any dataset would take based on any combination of threshold values.\relax }{figure.caption.11}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces A tree representing the structure of the threshold parameters that is more true to the actual implementation\relax }}{14}{figure.caption.12}}
+\newlabel{treeNoName0}{{13}{14}{A tree representing the structure of the threshold parameters that is more true to the actual implementation\relax }{figure.caption.12}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces The subtrees that contain only the leafs of the original tree from Figure \ref  {treeNoName0}.\relax }}{14}{figure.caption.13}}
+\newlabel{treeNoName1}{{14}{14}{The subtrees that contain only the leafs of the original tree from Figure \ref {treeNoName0}.\relax }{figure.caption.13}{}}
+\abx@aux@cite{oldtune}
+\abx@aux@segm{0}{0}{oldtune}
+\abx@aux@cite{opentunner}
+\abx@aux@segm{0}{0}{opentunner}
+\abx@aux@segm{0}{0}{ppopp}
+\newlabel{treeNoName20}{{15a}{15}{Subfigure 15a}{subfigure.15.1}{}}
+\newlabel{sub@treeNoName20}{{(a)}{a}{Subfigure 15a\relax }{subfigure.15.1}{}}
+\newlabel{treeNoName21}{{15b}{15}{Subfigure 15b}{subfigure.15.2}{}}
+\newlabel{sub@treeNoName21}{{(b)}{b}{Subfigure 15b\relax }{subfigure.15.2}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces The two subtrees of the root of the tree in figure \ref  {treeNoName0}\relax }}{15}{figure.caption.14}}
+\newlabel{treeNoName2}{{15}{15}{The two subtrees of the root of the tree in figure \ref {treeNoName0}\relax }{figure.caption.14}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Handling Loops}{15}{subsection.3.4}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {4}Gotta Go Fast!}{15}{section.4}}
+\newlabel{GottaGoFast}{{4}{15}{Gotta Go Fast!}{section.4}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{nn, backprop and matmul}{16}{section.4}}
+\newlabel{nn}{{16a}{16}{Subfigure 16a}{subfigure.16.1}{}}
+\newlabel{sub@nn}{{(a)}{a}{Subfigure 16a\relax }{subfigure.16.1}{}}
+\newlabel{backprop}{{16b}{16}{Subfigure 16b}{subfigure.16.2}{}}
+\newlabel{sub@backprop}{{(b)}{b}{Subfigure 16b\relax }{subfigure.16.2}{}}
+\newlabel{matmul}{{16c}{16}{Subfigure 16c}{subfigure.16.3}{}}
+\newlabel{sub@matmul}{{(c)}{c}{Subfigure 16c\relax }{subfigure.16.3}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Benchmark for \texttt  {nn}, \texttt  {backprod}, and \texttt  {matmul}\relax }}{16}{figure.caption.15}}
+\newlabel{NNandBackprop}{{16}{16}{Benchmark for \texttt {nn}, \texttt {backprod}, and \texttt {matmul}\relax }{figure.caption.15}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {The result for autotuning the \textit {nn} program, with no tuning being the baseline.}}}{16}{subfigure.16.1}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {The result for autotuning the \textit {backprop} program, with no tuning being the baseline.}}}{16}{subfigure.16.2}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {The result for autotuning the \textit {matmul} program, with no tuning being the baseline.}}}{16}{subfigure.16.3}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{LocVolCalib}{17}{figure.caption.15}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces The result for autotuning the \textit  {LocVolCalib} program, with no tuning being the baseline.\relax }}{17}{figure.caption.16}}
+\newlabel{LocVolCalib-SmallMediumLarge}{{17}{17}{The result for autotuning the \textit {LocVolCalib} program, with no tuning being the baseline.\relax }{figure.caption.16}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces The result for autotuning the \textit  {LocVolCalib} program, for different combinations of datasets, with no tuning being the baseline.\relax }}{18}{figure.caption.17}}
+\newlabel{LocVolCalibAll}{{18}{18}{The result for autotuning the \textit {LocVolCalib} program, for different combinations of datasets, with no tuning being the baseline.\relax }{figure.caption.17}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5}Reflections \& Future work}{18}{section.5}}
+\newlabel{synData}{{5}{18}{Reflections \& Future work}{section.5}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{19}{section.6}}
+\newlabel{conclusion}{{6}{19}{Conclusion}{section.6}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {7}User Guide}{20}{section.7}}
+\abx@aux@cite{prog-guide-cuda}
+\abx@aux@segm{0}{0}{prog-guide-cuda}
+\abx@aux@refcontextdefaultsdone
+\abx@aux@defaultrefcontext{0}{opentunner}{nty/global//global/global}
+\abx@aux@defaultrefcontext{0}{flat}{nty/global//global/global}
+\abx@aux@defaultrefcontext{0}{nesl}{nty/global//global/global}
+\abx@aux@defaultrefcontext{0}{cpu-vs-gpu}{nty/global//global/global}
+\abx@aux@defaultrefcontext{0}{futhark-moderate-blog}{nty/global//global/global}
+\abx@aux@defaultrefcontext{0}{futhark-home}{nty/global//global/global}
+\abx@aux@defaultrefcontext{0}{expansion}{nty/global//global/global}
+\abx@aux@defaultrefcontext{0}{ppopp}{nty/global//global/global}
+\abx@aux@defaultrefcontext{0}{futhark-nested-para}{nty/global//global/global}
+\abx@aux@defaultrefcontext{0}{inc-flat}{nty/global//global/global}
+\abx@aux@defaultrefcontext{0}{prog-guide-cuda}{nty/global//global/global}
+\abx@aux@defaultrefcontext{0}{oldtune}{nty/global//global/global}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {A}Code examples}{22}{appendix.A}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}Matrix Multiplication - CUDA for GPUs \cite [p. 71-73]{prog-guide-cuda}}{22}{subsection.A.1}}
+\newlabel{cuda-matmult}{{A.1}{22}{Matrix Multiplication - CUDA for GPUs \cite [p. 71-73]{prog-guide-cuda}}{subsection.A.1}{}}
+\zref@newlabel{LastPage}{\default{A.1}\page{22}\abspage{24}}
