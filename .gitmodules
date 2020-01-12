@@ -1,3 +1,0 @@
-[submodule "futhark"]
-	path = futhark
-	url = https://github.com/Nonplused/futhark.git
